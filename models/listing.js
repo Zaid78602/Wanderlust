@@ -8,9 +8,9 @@ const  listningSchema = new Schema({
     },
     description: String,
     image: {
-        type: Object,
-        default: "https://unsplash.com/photos/brown-wooden-table-and-chairs-on-brown-wooden-deck-near-body-of-water-during-daytime-TAgGZWz6Qg8",
-        set: (v) => v === "" ? "https://unsplash.com/photos/brown-wooden-table-and-chairs-on-brown-wooden-deck-near-body-of-water-during-daytime-TAgGZWz6Qg8" : v
+        type: String,
+        default: "https://www.industrialempathy.com/img/remote/ZiClJf-1920w.jpg",
+        set: (v) => v === "" ? "https://www.industrialempathy.com/img/remote/ZiClJf-1920w.jpg" : v
     },
     price: Number,
     location: String, 
