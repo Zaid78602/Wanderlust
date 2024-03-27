@@ -1,6 +1,3 @@
-const { string } = require("joi");
-const { schema } = require("./listing");
-
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema; 
 
